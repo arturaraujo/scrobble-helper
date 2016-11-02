@@ -4,7 +4,6 @@ class CreateUsers < ActiveRecord::Migration
       t.string :name
       t.string :email
       t.string :lastfm_user
-      t.string :password
 
       t.timestamps null: false
     end
